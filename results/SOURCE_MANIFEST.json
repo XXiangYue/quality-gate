@@ -1,0 +1,44 @@
+{
+  "original_commit": "f6818662fdf4d845732545c34b63776a3960b694",
+  "measurement_date": "2026-11-01",
+  "export_date": "2026-11-05",
+  "original_files": [
+    {
+      "source": "evidence/P3/main_v2/summary.json",
+      "sha256": "587310b444abdc7c84620ac22f12eecf2b143f21caa0dca9b608ef52675d171f",
+      "bytes": 1048,
+      "published": "results/summary.json"
+    },
+    {
+      "source": "evidence/P3/main_v2/corpus.json",
+      "sha256": "002ffcb28f30437ffcd34d4dabb938d79ec22f0a8c6bc5aefc825f0050a21877",
+      "bytes": 794473,
+      "published": "results/corpus.json"
+    },
+    {
+      "source": "evidence/P3/main_v2/verdicts.json",
+      "sha256": "26aa0c31720eab2909ab9dbc08e9e531e5d46cf2b2cb75fef7c5d1b5767417e9",
+      "bytes": 135448,
+      "published": "results/verdicts.json"
+    },
+    {
+      "source": "evidence/P3/main_v2/clean_controls.json",
+      "sha256": "c9597c2a86f8c82f23577e04b15bad1535318e93836284cc32797c17e6ff82ab",
+      "bytes": 476,
+      "published": "results/clean_controls.json"
+    },
+    {
+      "source": "evidence/P3/main_v2/release_mutations.json",
+      "sha256": "2dec525801ea110f0ab3b219561aaddab367ca8478d62d5d5e76e50a6cd40b58",
+      "bytes": 9761,
+      "published": "results/release_mutations.json"
+    },
+    {
+      "source": "evidence/P3/main_v2/protocol.lock.json",
+      "sha256": "701420ccbc4c38eb68e38c1350ba1a65dffc789ed50797270b54db548cfb6060",
+      "bytes": 1774,
+      "published": "results/protocol.lock.json"
+    }
+  ],
+  "export_policy": "Numeric/state records and constructed fixtures only. Private local paths are normalized. Model transcripts, benchmark source text, databases, credentials and caches remain outside Git. All original local evidence is preserved."
+}

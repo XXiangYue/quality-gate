@@ -1,0 +1,111 @@
+{
+  "predictions": [
+    {
+      "id": "example-0",
+      "prediction": 1
+    },
+    {
+      "id": "example-1",
+      "prediction": 1
+    },
+    {
+      "id": "example-2",
+      "prediction": 0
+    },
+    {
+      "id": "example-3",
+      "prediction": 1
+    },
+    {
+      "id": "example-4",
+      "prediction": 0
+    },
+    {
+      "id": "example-5",
+      "prediction": 1
+    },
+    {
+      "id": "example-6",
+      "prediction": 0
+    },
+    {
+      "id": "example-7",
+      "prediction": 0
+    },
+    {
+      "id": "example-8",
+      "prediction": 0
+    },
+    {
+      "id": "example-9",
+      "prediction": 1
+    },
+    {
+      "id": "example-10",
+      "prediction": 1
+    },
+    {
+      "id": "example-11",
+      "prediction": 0
+    },
+    {
+      "id": "example-12",
+      "prediction": 1
+    },
+    {
+      "id": "example-13",
+      "prediction": 1
+    },
+    {
+      "id": "example-14",
+      "prediction": 0
+    },
+    {
+      "id": "example-15",
+      "prediction": 0
+    },
+    {
+      "id": "example-16",
+      "prediction": 0
+    },
+    {
+      "id": "example-17",
+      "prediction": 0
+    },
+    {
+      "id": "example-18",
+      "prediction": 0
+    },
+    {
+      "id": "example-19",
+      "prediction": 0
+    },
+    {
+      "id": "example-20",
+      "prediction": 1
+    },
+    {
+      "id": "example-21",
+      "prediction": 1
+    },
+    {
+      "id": "example-22",
+      "prediction": 0
+    },
+    {
+      "id": "example-23",
+      "prediction": 1
+    }
+  ],
+  "metrics": {
+    "n": 24,
+    "accuracy": 0.875,
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1": 0.8695652173913043
+  },
+  "split_id": "test-example",
+  "data_sha256": "2e23250164957d519115f2dd253384e487806e87cb3557eb1372b937dff93959",
+  "run_receipt": "d1af660e4b7aa290683c2226ba281ca8ee1338ce53c44d8b4cf209ba2d91b957",
+  "report_prediction_sha256": "4b6ac1f73df91a143752186030649f3642764ed5052d8021cdff2f3ec5c71468"
+}

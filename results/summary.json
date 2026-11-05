@@ -1,0 +1,44 @@
+{
+  "V0": {
+    "false_acceptance": {
+      "num": 100,
+      "den": 100,
+      "value": 1.0
+    },
+    "false_rejection": {
+      "num": 0,
+      "den": 100,
+      "value": 0.0
+    },
+    "p95_static_ms": 0.0003343448042869568,
+    "n": 200
+  },
+  "V1": {
+    "false_acceptance": {
+      "num": 0,
+      "den": 100,
+      "value": 0.0
+    },
+    "false_rejection": {
+      "num": 0,
+      "den": 100,
+      "value": 0.0
+    },
+    "p95_static_ms": 0.018291175365447998,
+    "n": 200
+  },
+  "controlled_release_regressions": {
+    "detected": {
+      "num": 20,
+      "den": 20,
+      "value": 1.0
+    },
+    "clean_control_false_alarms": {
+      "num": 0,
+      "den": 2,
+      "value": 0.0
+    },
+    "scope": "Predeclared required-check configuration regressions executed on the full regression corpus, separate from the held-out artifact verdict test."
+  },
+  "scope": "200 held-out constructed artifact/state items; reference calculations use sklearn, candidate verifier uses independent arithmetic. No human/open-ended semantic validation."
+}

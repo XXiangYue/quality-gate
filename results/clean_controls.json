@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "artifact",
+    "first_sha256": "0ad351776a2b53e13c649463b3e1b93bcb48304d8b734d14a58562d71c528aa4",
+    "repeat_sha256": "0ad351776a2b53e13c649463b3e1b93bcb48304d8b734d14a58562d71c528aa4",
+    "false_alarm": false
+  },
+  {
+    "domain": "business",
+    "first_sha256": "f6f07a974bb183a7795309d90b1239330d20be402bec3b6ee1bbf943e2368816",
+    "repeat_sha256": "f6f07a974bb183a7795309d90b1239330d20be402bec3b6ee1bbf943e2368816",
+    "false_alarm": false
+  }
+]

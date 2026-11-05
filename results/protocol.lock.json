@@ -1,0 +1,96 @@
+{
+  "project": "P3",
+  "seed": 2026110103,
+  "corpus_sha256": "6591c27fff2c77ccc890cca5cdce55192f54b84a1c25d18dbc30295041a3a8cb",
+  "dev": 100,
+  "test": 200,
+  "arms": [
+    "V0",
+    "V1"
+  ],
+  "primary": "false acceptance and false rejection",
+  "origin": "constructed labeled artifacts, not production incidents",
+  "mutant_config": {
+    "artifact": [
+      [
+        "sample_ids",
+        "source_links",
+        "metric_accuracy",
+        "metric_precision",
+        "metric_recall",
+        "metric_f1"
+      ],
+      [
+        "unique_ids",
+        "source_links",
+        "metric_accuracy",
+        "metric_precision",
+        "metric_recall",
+        "metric_f1"
+      ],
+      [
+        "split_version"
+      ],
+      [
+        "data_version"
+      ],
+      [
+        "run_receipt"
+      ],
+      [
+        "source_links"
+      ],
+      [
+        "denominator"
+      ],
+      [
+        "metric_accuracy"
+      ],
+      [
+        "metric_f1"
+      ],
+      [
+        "label_values",
+        "source_links",
+        "metric_accuracy",
+        "metric_precision",
+        "metric_recall",
+        "metric_f1"
+      ]
+    ],
+    "business": [
+      [
+        "ticket_status"
+      ],
+      [
+        "ticket_version"
+      ],
+      [
+        "knowledge_version"
+      ],
+      [
+        "knowledge_hash"
+      ],
+      [
+        "linked_version"
+      ],
+      [
+        "scope_integrity"
+      ],
+      [
+        "no_unauthorized_write"
+      ],
+      [
+        "one_business_effect"
+      ],
+      [
+        "approval_bound"
+      ],
+      [
+        "operation_receipt"
+      ]
+    ]
+  },
+  "code_sha256": "4aa17ea369711966fd7f7f19d6a3ddb041bd15a303a9db180072c55d0ef28e6a",
+  "protocol_sha256": "c031965723e541f2d6846bed5a4e0113d51fbdf4355fbab78c7ece46c8535ab0"
+}

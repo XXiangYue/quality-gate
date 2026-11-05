@@ -1,0 +1,110 @@
+{
+  "historical_adapter": {
+    "questions_in_main_config": {
+      "baseline_bm25": 414,
+      "system": 414
+    },
+    "saved_records": 888,
+    "trace_rule_mismatches": [],
+    "saved_success_by_config_run": {
+      "baseline_bm25/run1": {
+        "num": 213,
+        "den": 414,
+        "value": 0.5144927536231884
+      },
+      "system/run1": {
+        "num": 285,
+        "den": 414,
+        "value": 0.6884057971014492
+      },
+      "system/run2": {
+        "num": 17,
+        "den": 30,
+        "value": 0.5666666666666667
+      },
+      "system/run3": {
+        "num": 17,
+        "den": 30,
+        "value": 0.5666666666666667
+      }
+    },
+    "scope": "Only existing saved QA model judgments and original trace rule; not new answer quality or causal failure-truth assessment"
+  },
+  "structured_verifier": {
+    "V0": {
+      "false_acceptance": {
+        "num": 100,
+        "den": 100,
+        "value": 1.0
+      },
+      "false_rejection": {
+        "num": 0,
+        "den": 100,
+        "value": 0.0
+      },
+      "p95_static_ms": 0.0003343448042869568,
+      "n": 200
+    },
+    "V1": {
+      "false_acceptance": {
+        "num": 0,
+        "den": 100,
+        "value": 0.0
+      },
+      "false_rejection": {
+        "num": 0,
+        "den": 100,
+        "value": 0.0
+      },
+      "p95_static_ms": 0.018291175365447998,
+      "n": 200
+    },
+    "controlled_release_regressions": {
+      "detected": {
+        "num": 20,
+        "den": 20,
+        "value": 1.0
+      },
+      "clean_control_false_alarms": {
+        "num": 0,
+        "den": 2,
+        "value": 0.0
+      },
+      "scope": "Predeclared required-check configuration regressions executed on the full regression corpus, separate from the held-out artifact verdict test."
+    },
+    "scope": "200 held-out constructed artifact/state items; reference calculations use sklearn, candidate verifier uses independent arithmetic. No human/open-ended semantic validation."
+  },
+  "automatic_feedback": {
+    "with_automatic_feedback": {
+      "num": 11,
+      "den": 12,
+      "value": 0.9166666666666666
+    },
+    "without_automatic_feedback": {
+      "num": 12,
+      "den": 12,
+      "value": 1.0
+    },
+    "paired": {
+      "n": 12,
+      "paired_mcnemar_diagnostic": {
+        "b01": 0,
+        "b10": 1,
+        "n_discordant": 1,
+        "p_value": 1.0
+      },
+      "cluster_bootstrap": {
+        "diff": -0.08333333333333337,
+        "ci": [
+          -0.25,
+          0.0
+        ],
+        "iters": 2000,
+        "seed": 20261101
+      },
+      "cluster_count": 4,
+      "scope": "Descriptive paired diagnostics for this custom sample; template/task dependence limits generalization; no hiring/production causal claim"
+    },
+    "scope": "12 predeclared tasks; both arms retain optional artifact_status tool; only final automatic feedback loop differs, no hidden-test feedback"
+  }
+}

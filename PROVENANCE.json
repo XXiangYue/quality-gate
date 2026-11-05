@@ -1,0 +1,40 @@
+{
+  "original_commit": "f6818662fdf4d845732545c34b63776a3960b694",
+  "packaged_on": "2026-11-05",
+  "project": "Quality Gate",
+  "namespace": "quality_gate",
+  "files": [
+    {
+      "source": "src/outcomes/__init__.py",
+      "source_sha256": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95",
+      "destination": "src/quality_gate/__init__.py",
+      "published_sha256": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95"
+    },
+    {
+      "source": "src/outcomes/common.py",
+      "source_sha256": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165",
+      "destination": "src/quality_gate/common.py",
+      "published_sha256": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165"
+    },
+    {
+      "source": "src/outcomes/quality.py",
+      "source_sha256": "1ff6b861b48c80a7508b4fa680c6544b99e2974228562e078679c4e30c81573d",
+      "destination": "src/quality_gate/quality.py",
+      "published_sha256": "1ff6b861b48c80a7508b4fa680c6544b99e2974228562e078679c4e30c81573d"
+    }
+  ],
+  "changes": [
+    "Mechanical Python namespace replacement outcomes -> quality_gate",
+    "Project-specific CLI and minimal dependencies",
+    "Selected upstream assets and licenses",
+    "Numeric/state historical evidence export with normalized local paths",
+    "New installation, reproduction, scope and regression CI documentation"
+  ],
+  "original_measurement_scope": "New personal engineering, not historical employer deployment. No fresh model experiment performed by this packaging script.",
+  "standalone_source_sha256": {
+    "src/quality_gate/__init__.py": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95",
+    "src/quality_gate/cli.py": "6f0c3c400e322141e1a765a9cee6db25aa84d79c602d0c0e7a3f393c341a73b5",
+    "src/quality_gate/common.py": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165",
+    "src/quality_gate/quality.py": "1ff6b861b48c80a7508b4fa680c6544b99e2974228562e078679c4e30c81573d"
+  }
+}

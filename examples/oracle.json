@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "example-0": 1,
+    "example-1": 1,
+    "example-2": 1,
+    "example-3": 1,
+    "example-4": 0,
+    "example-5": 1,
+    "example-6": 0,
+    "example-7": 0,
+    "example-8": 0,
+    "example-9": 1,
+    "example-10": 1,
+    "example-11": 1,
+    "example-12": 1,
+    "example-13": 1,
+    "example-14": 0,
+    "example-15": 0,
+    "example-16": 0,
+    "example-17": 0,
+    "example-18": 0,
+    "example-19": 0,
+    "example-20": 1,
+    "example-21": 0,
+    "example-22": 0,
+    "example-23": 1
+  },
+  "split_id": "test-example",
+  "data_sha256": "2e23250164957d519115f2dd253384e487806e87cb3557eb1372b937dff93959",
+  "run_receipt": "d1af660e4b7aa290683c2226ba281ca8ee1338ce53c44d8b4cf209ba2d91b957"
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "domain": "artifact",
+    "mutation": 0,
+    "disabled_checks": [
+      "metric_accuracy",
+      "metric_f1",
+      "metric_precision",
+      "metric_recall",
+      "sample_ids",
+      "source_links"
+    ],
+    "new_false_accepts": [
+      "dev-artifact-1",
+      "dev-artifact-11",
+      "dev-artifact-21",
+      "dev-artifact-31",
+      "dev-artifact-41",
+      "test-artifact-1",
+      "test-artifact-5",
+      "test-artifact-7",
+      "test-artifact-11",
+      "test-artifact-15",
+      "test-artifact-17",
+      "test-artifact-21",
+      "test-artifact-25",
+      "test-artifact-27",
+      "test-artifact-31",
+      "test-artifact-35",
+      "test-artifact-37",
+      "test-artifact-41",
+      "test-artifact-45",
+      "test-artifact-47",
+      "test-artifact-51",
+      "test-artifact-55",
+      "test-artifact-57",
+      "test-artifact-61",
+      "test-artifact-65",
+      "test-artifact-67",
+      "test-artifact-71",
+      "test-artifact-75",
+      "test-artifact-77",
+      "test-artifact-81",
+      "test-artifact-85",
+      "test-artifact-87",
+      "test-artifact-91",
+      "test-artifact-95",
+      "test-artifact-97"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 1,
+    "disabled_checks": [
+      "metric_accuracy",
+      "metric_f1",
+      "metric_precision",
+      "metric_recall",
+      "source_links",
+      "unique_ids"
+    ],
+    "new_false_accepts": [
+      "dev-artifact-3",
+      "dev-artifact-13",
+      "dev-artifact-23",
+      "dev-artifact-33",
+      "dev-artifact-43",
+      "test-artifact-1",
+      "test-artifact-5",
+      "test-artifact-7",
+      "test-artifact-11",
+      "test-artifact-15",
+      "test-artifact-17",
+      "test-artifact-21",
+      "test-artifact-25",
+      "test-artifact-27",
+      "test-artifact-31",
+      "test-artifact-35",
+      "test-artifact-37",
+      "test-artifact-41",
+      "test-artifact-45",
+      "test-artifact-47",
+      "test-artifact-51",
+      "test-artifact-55",
+      "test-artifact-57",
+      "test-artifact-61",
+      "test-artifact-65",
+      "test-artifact-67",
+      "test-artifact-71",
+      "test-artifact-75",
+      "test-artifact-77",
+      "test-artifact-81",
+      "test-artifact-85",
+      "test-artifact-87",
+      "test-artifact-91",
+      "test-artifact-95",
+      "test-artifact-97"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 2,
+    "disabled_checks": [
+      "split_version"
+    ],
+    "new_false_accepts": [
+      "dev-artifact-5",
+      "dev-artifact-15",
+      "dev-artifact-25",
+      "dev-artifact-35",
+      "dev-artifact-45"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 3,
+    "disabled_checks": [
+      "data_version"
+    ],
+    "new_false_accepts": [
+      "dev-artifact-7",
+      "dev-artifact-17",
+      "dev-artifact-27",
+      "dev-artifact-37",
+      "dev-artifact-47"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 4,
+    "disabled_checks": [
+      "run_receipt"
+    ],
+    "new_false_accepts": [
+      "dev-artifact-9",
+      "dev-artifact-19",
+      "dev-artifact-29",
+      "dev-artifact-39",
+      "dev-artifact-49"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 5,
+    "disabled_checks": [
+      "source_links"
+    ],
+    "new_false_accepts": [
+      "test-artifact-1",
+      "test-artifact-11",
+      "test-artifact-21",
+      "test-artifact-31",
+      "test-artifact-41",
+      "test-artifact-51",
+      "test-artifact-61",
+      "test-artifact-71",
+      "test-artifact-81",
+      "test-artifact-91"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 6,
+    "disabled_checks": [
+      "denominator"
+    ],
+    "new_false_accepts": [
+      "test-artifact-3",
+      "test-artifact-13",
+      "test-artifact-23",
+      "test-artifact-33",
+      "test-artifact-43",
+      "test-artifact-53",
+      "test-artifact-63",
+      "test-artifact-73",
+      "test-artifact-83",
+      "test-artifact-93"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 7,
+    "disabled_checks": [
+      "metric_accuracy"
+    ],
+    "new_false_accepts": [
+      "test-artifact-5",
+      "test-artifact-15",
+      "test-artifact-25",
+      "test-artifact-35",
+      "test-artifact-45",
+      "test-artifact-55",
+      "test-artifact-65",
+      "test-artifact-75",
+      "test-artifact-85",
+      "test-artifact-95"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 8,
+    "disabled_checks": [
+      "metric_f1"
+    ],
+    "new_false_accepts": [
+      "test-artifact-7",
+      "test-artifact-17",
+      "test-artifact-27",
+      "test-artifact-37",
+      "test-artifact-47",
+      "test-artifact-57",
+      "test-artifact-67",
+      "test-artifact-77",
+      "test-artifact-87",
+      "test-artifact-97"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "artifact",
+    "mutation": 9,
+    "disabled_checks": [
+      "label_values",
+      "metric_accuracy",
+      "metric_f1",
+      "metric_precision",
+      "metric_recall",
+      "source_links"
+    ],
+    "new_false_accepts": [
+      "test-artifact-1",
+      "test-artifact-5",
+      "test-artifact-7",
+      "test-artifact-9",
+      "test-artifact-11",
+      "test-artifact-15",
+      "test-artifact-17",
+      "test-artifact-19",
+      "test-artifact-21",
+      "test-artifact-25",
+      "test-artifact-27",
+      "test-artifact-29",
+      "test-artifact-31",
+      "test-artifact-35",
+      "test-artifact-37",
+      "test-artifact-39",
+      "test-artifact-41",
+      "test-artifact-45",
+      "test-artifact-47",
+      "test-artifact-49",
+      "test-artifact-51",
+      "test-artifact-55",
+      "test-artifact-57",
+      "test-artifact-59",
+      "test-artifact-61",
+      "test-artifact-65",
+      "test-artifact-67",
+      "test-artifact-69",
+      "test-artifact-71",
+      "test-artifact-75",
+      "test-artifact-77",
+      "test-artifact-79",
+      "test-artifact-81",
+      "test-artifact-85",
+      "test-artifact-87",
+      "test-artifact-89",
+      "test-artifact-91",
+      "test-artifact-95",
+      "test-artifact-97",
+      "test-artifact-99"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 0,
+    "disabled_checks": [
+      "ticket_status"
+    ],
+    "new_false_accepts": [
+      "dev-business-1",
+      "dev-business-11",
+      "dev-business-21",
+      "dev-business-31",
+      "dev-business-41"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 1,
+    "disabled_checks": [
+      "ticket_version"
+    ],
+    "new_false_accepts": [
+      "dev-business-3",
+      "dev-business-13",
+      "dev-business-23",
+      "dev-business-33",
+      "dev-business-43"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 2,
+    "disabled_checks": [
+      "knowledge_version"
+    ],
+    "new_false_accepts": [
+      "dev-business-5",
+      "dev-business-15",
+      "dev-business-25",
+      "dev-business-35",
+      "dev-business-45"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 3,
+    "disabled_checks": [
+      "knowledge_hash"
+    ],
+    "new_false_accepts": [
+      "dev-business-7",
+      "dev-business-17",
+      "dev-business-27",
+      "dev-business-37",
+      "dev-business-47"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 4,
+    "disabled_checks": [
+      "linked_version"
+    ],
+    "new_false_accepts": [
+      "dev-business-9",
+      "dev-business-19",
+      "dev-business-29",
+      "dev-business-39",
+      "dev-business-49"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 5,
+    "disabled_checks": [
+      "scope_integrity"
+    ],
+    "new_false_accepts": [
+      "test-business-1",
+      "test-business-11",
+      "test-business-21",
+      "test-business-31",
+      "test-business-41",
+      "test-business-51",
+      "test-business-61",
+      "test-business-71",
+      "test-business-81",
+      "test-business-91"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 6,
+    "disabled_checks": [
+      "no_unauthorized_write"
+    ],
+    "new_false_accepts": [
+      "test-business-3",
+      "test-business-13",
+      "test-business-23",
+      "test-business-33",
+      "test-business-43",
+      "test-business-53",
+      "test-business-63",
+      "test-business-73",
+      "test-business-83",
+      "test-business-93"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 7,
+    "disabled_checks": [
+      "one_business_effect"
+    ],
+    "new_false_accepts": [
+      "test-business-5",
+      "test-business-15",
+      "test-business-25",
+      "test-business-35",
+      "test-business-45",
+      "test-business-55",
+      "test-business-65",
+      "test-business-75",
+      "test-business-85",
+      "test-business-95"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 8,
+    "disabled_checks": [
+      "approval_bound"
+    ],
+    "new_false_accepts": [
+      "test-business-7",
+      "test-business-17",
+      "test-business-27",
+      "test-business-37",
+      "test-business-47",
+      "test-business-57",
+      "test-business-67",
+      "test-business-77",
+      "test-business-87",
+      "test-business-97"
+    ],
+    "detected": true
+  },
+  {
+    "domain": "business",
+    "mutation": 9,
+    "disabled_checks": [
+      "operation_receipt"
+    ],
+    "new_false_accepts": [
+      "test-business-9",
+      "test-business-19",
+      "test-business-29",
+      "test-business-39",
+      "test-business-49",
+      "test-business-59",
+      "test-business-69",
+      "test-business-79",
+      "test-business-89",
+      "test-business-99"
+    ],
+    "detected": true
+  }
+]
