@@ -13,4 +13,8 @@ jobs:
       - run: uv sync --locked
       - run: uv run pytest -q
       - run: uv run python scripts/verify_results.py
+      - name: Recompute held-out WebJudge results
+        run: |
+          uv run python scripts/score_webarena.py results/webarena/trajectories.jsonl /tmp/webarena-summary.json
+          cmp results/webarena/summary.json /tmp/webarena-summary.json
       - run: uv run quality-gate --help

@@ -1,8 +1,12 @@
 # Quality Gate
 
-Independent acceptance checks for Agent artifacts and business final state, with controlled release-regression witnesses.
+Quality Gate evaluates whether an agent completed its task. Its WebArena runner compares a selective second read of browser evidence against the original WebJudge evaluation and a second read of every rejection. The original artifact verifier checks local business state and regression fixtures.
 
-## Measured outcome
+## Public browser trajectories
+
+The [WebJudge reproduction guide](docs/WEBJUDGE.md) describes the three paired arms, evidence requirements, datasets, setup and offline scoring. The [held-out results](docs/WEBJUDGE_RESULTS.md) give the number of rescued successes, newly released failures, reviewer calls and disagreements.
+
+## Earlier controlled artifact results
 
 On 100 constructed invalid and 100 valid test artifacts/states, false accepts fell from 100 to 0 versus format-only checking; all valid cases passed. All 20 predefined missing-check configurations were detected.
 
@@ -25,7 +29,7 @@ uv run pytest -q
 uv run python scripts/verify_results.py
 ```
 
-All evaluation and verification paths in this repository run locally without API credentials.
+The following controlled artifact checks run locally without API credentials. Public browser replay requires a vision-capable model endpoint.
 
 
 ```bash

@@ -1,0 +1,22 @@
+{
+  "rate_scope": "USD peak, input cache miss, estimated, not invoice",
+  "model": "deepseek-flash",
+  "initial_imported_cache_calls": 340,
+  "before_restart": "First phase imported from available content-addressed responses. Prior unobserved charges or duplicate service calls cannot be reconstructed.",
+  "calls": [
+    {
+      "status": "completed",
+      "calls": 4111,
+      "input_tokens": 6468831,
+      "output_tokens": 659727,
+      "peak_usd_or_reserved_bound": 2.732322
+    },
+    {
+      "status": "unknown_billing",
+      "calls": 11,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "peak_usd_or_reserved_bound": 0.469325
+    }
+  ]
+}

@@ -12,3 +12,9 @@ Quality Gate's new labels, independent acceptance logic and controlled missing-c
 
 Third-party files retain their original license notices. This packaging operation
 does not assign a new blanket license to the author's original portfolio code.
+
+For browser-trajectory experiments, the pinned AgentRewardBench observation archive,
+metadata and the OSU WebJudge implementation are downloaded from their respective
+publishers. The [reproduction guide](docs/WEBJUDGE.md) includes exact revisions
+and source links. Replay loads the upstream judge after verifying its SHA-256.
+The public numeric trial export includes trajectory keys and observation hashes.

@@ -1,0 +1,14 @@
+{
+  "model": "deepseek-flash (service alias, temperature 0)",
+  "policy": "Development only before held-out outcome inspection. Keep trials, task-matched controls, failures and incomplete arms. Never impute missing measurements. Count unsuccessful attempts in cost. No extra spending after a per-arm bound; report denominator. Labels are scoring-only. Historical November 1 results separate.",
+  "source": "AgentRewardBench HF b6d17e646009d6cb63d5dd7be78807b680693f61, metadata 05899fcfe52c925978944a23920373b7a9c63740; WebJudge 1a8db93168d5d7870402b7f453160e1c557153c8",
+  "split": "88 dev / 310 test, primary annotation by official file order; discordance sensitivity",
+  "arms": [
+    "unchanged general WebJudge prompts, threshold=3",
+    "conditional second read",
+    "all initial failures second read"
+  ],
+  "measure": "rescued true success, newly released genuine failure, success recall, FPR, calls per trajectory; paired task bootstrap 95% intervals",
+  "guard": "no increase in heldout false accept count; distinguish coverage; sensitivity on disputed labels; all failures with any labels remain in coverage.",
+  "budget": "max 1300 output tokens per call; ceiling 30 USD projected per main run; publish observed usage"
+}
