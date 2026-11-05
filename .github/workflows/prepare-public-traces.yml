@@ -23,16 +23,20 @@ jobs:
         run: python3 scripts/webarena_data.py data --workers 5 --shards 12 --shard "$SHARD" --with-frames
         env:
           SHARD: ${{ matrix.shard }}
+      - name: Deduplicate exact RGB tiles
+        run: |
+          python3 -m pip install 'Pillow==13.0.0'
+          python3 scripts/frame_bundle.py pack data/frames data/pixels.zip
       - name: Seal shard for recipient
         env:
           RECIPIENT: ${{ inputs.recipient }}
         run: |
           echo "$RECIPIENT" | base64 -d > recipient.pem
-          tar -czf shard.tar.gz -C data .
+          tar --exclude=frames -czf shard.tar.gz -C data .
           openssl cms -encrypt -binary -aes-256-cbc -in shard.tar.gz -out shard.cms -outform DER recipient.pem
       - uses: actions/upload-artifact@v4
         with:
-          name: webarena-${{ matrix.shard }}
+          name: webarena-rgb-${{ matrix.shard }}
           path: shard.cms
           retention-days: 1
           compression-level: 0
