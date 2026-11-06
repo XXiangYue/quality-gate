@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-06",
+  "frozen_inference_all_finished": true,
+  "release_hardening": "After inference: malformed contract/certificate type checks now fail closed; all completed structured certificates recomputed identically. Scoring handles missing baseline; prompts and decisions unchanged. Frozen source bytes retained.",
+  "revalidated_structured_certificates": 471,
+  "offline_tests": 12,
+  "author": "Root execution and independent development-only review by chronicle_restart; no recruiter trial"
+}

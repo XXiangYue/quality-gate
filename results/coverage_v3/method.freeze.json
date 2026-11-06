@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-11-06T02:14:07.798582+00:00",
+  "selected": "audited",
+  "development_selection": "zero new false accepts; 2 rescued vs coverage1 and original1; evidence4+2 and scoped0+1 violate guard",
+  "comparison": [
+    "baseline",
+    "review_all",
+    "evidence",
+    "audited",
+    "unaudited (exact same candidate before audit)"
+  ],
+  "regression": "all310 previously analyzed WebArena test traces",
+  "transfer": "frozen20WorkArena tasks80trajectories prepared without viewing content/labels",
+  "files": {
+    "src/quality_gate/coverage_review.py": "31456f6ee103d4dd359590ed07d8762c3d9907726f0476b35fe7cc70eb965b0e",
+    "scripts/coverage_judge.py": "8628da390fc363f96be3f9e500ac4178f8e6ddc5a22dd39b77df65ec6951b863",
+    "protocols/coverage-v3.json": "5c4c369b9f9805c4ccf0c3831f6e00edd4290d261ecb6579553c43054ffc1ba4"
+  }
+}

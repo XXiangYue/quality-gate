@@ -125,7 +125,10 @@ def evaluate(row, data, out, module):
 
         def image_file(s):
             remote = s["screenshot_path"].removeprefix("trajectories/")
-            if not remote.startswith("screenshots/webarena/"):
+            dataset = row["task"].split(".", 1)[0]
+            if dataset not in {"webarena", "workarena"} or not remote.startswith(
+                f"screenshots/{dataset}/"
+            ):
                 raise ValueError("Invalid public screenshot path")
             img = Path(temp) / (str(s["num"]) + ".png")
             store = data / "frames"
@@ -228,6 +231,7 @@ def main():
     args = p.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
     (args.out / "calls").mkdir(exist_ok=True)
+    Budget(args.out / "billing.sqlite", 30)
     rows = [
         r
         for r in json.loads((args.data / "catalog.json").read_text())

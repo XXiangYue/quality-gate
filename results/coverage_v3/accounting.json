@@ -1,0 +1,30 @@
+{
+  "development_and_regression": {
+    "calls": 742,
+    "cost_upper_bound_usd": 3.1820315999999997,
+    "known_usage_peak_equivalent_usd": 3.1820315999999997,
+    "pending_reserved_usd": 0,
+    "charge_unknown_upper_bound_usd": 0,
+    "input_tokens": 10145712,
+    "output_tokens": 115265
+  },
+  "transfer_baseline": {
+    "calls": 1203,
+    "cost_upper_bound_usd": 0.9443571,
+    "known_usage_peak_equivalent_usd": 0.9443571,
+    "pending_reserved_usd": 0,
+    "charge_unknown_upper_bound_usd": 0,
+    "input_tokens": 2277253,
+    "output_tokens": 217651
+  },
+  "transfer_reviews": {
+    "calls": 190,
+    "cost_upper_bound_usd": 0.9735077999999999,
+    "known_usage_peak_equivalent_usd": 0.9735077999999999,
+    "pending_reserved_usd": 0,
+    "charge_unknown_upper_bound_usd": 0,
+    "input_tokens": 3081858,
+    "output_tokens": 40792
+  },
+  "scope": "These ledgers cover new physical requests including recorded failed/unknown-billing attempts. Historical WebArena baseline calls are reused and excluded. Logical per-arm tokens replay completed paths and may double-count shared cache calls; they are not invoices or whole-run billing."
+}

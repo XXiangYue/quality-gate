@@ -1,0 +1,962 @@
+[
+  {
+    "task": "workarena.servicenow.two-changes-wide-schedule-tight-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-basic-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-schedule-tight-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-basic-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-sort-hardware-list-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-sort-hardware-list-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-sort-hardware-list-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-sort-hardware-list-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-min-max-retrieval",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-min-max-retrieval",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-min-max-retrieval",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-min-max-retrieval",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-schedule-tight-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-filter-change-request-list-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-filter-change-request-list-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-filter-change-request-list-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-filter-change-request-list-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-value-retrieval",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-value-retrieval",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-value-retrieval",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-three-items-uniform-expenses-and-find-total-return-medium-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-development-laptop-p-c-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-apple-watch-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-create-user-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.impersonation",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-development-laptop-p-c-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-apple-watch-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-create-user-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.impersonation",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-development-laptop-p-c-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-apple-watch-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-development-laptop-p-c-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-order-apple-watch-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-create-user-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.sort-incident-list",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.priority-assignment-large-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-loaner-laptop",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-apple-watch",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-sort-service-catalog-item-list-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.impersonation",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.sort-incident-list",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.priority-assignment-large-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-loaner-laptop",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-apple-watch",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-sort-service-catalog-item-list-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.sort-incident-list",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.priority-assignment-large-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-loaner-laptop",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-apple-watch",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-sort-service-catalog-item-list-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.infeasible-navigate-and-create-user-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.impersonation",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.multi-chart-value-retrieval",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "C",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-basic-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-service-catalog-item-list",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "D",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-service-catalog-item-list",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "D",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-service-catalog-item-list",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "D",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-user-list",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-user-list",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-user-list",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-user-list",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-incident-and-max-filter-incident-list-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-catalog-and-max-order-loaner-laptop-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-service-catalog-item-list",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "D",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-schedule-tight-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-incident-and-max-filter-incident-list-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-catalog-and-max-order-loaner-laptop-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.two-changes-wide-basic-uniform-risk-change-request-scheduling-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "F",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.sort-incident-list",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-three-items-uniform-expenses-and-find-total-return-medium-l2",
+    "agent": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct",
+    "experiment": "GenericAgent-Qwen_Qwen2.5-VL-72B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.priority-assignment-large-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-three-items-uniform-expenses-and-find-total-return-medium-l2",
+    "agent": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct",
+    "experiment": "GenericAgent-meta-llama_Llama-3.3-70B-Instruct_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.filter-three-items-uniform-expenses-and-find-total-return-medium-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "G",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-incident-and-max-filter-incident-list-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-catalog-and-max-order-loaner-laptop-l2",
+    "agent": "GenericAgent-anthropic_claude-3.7-sonnet",
+    "experiment": "GenericAgent-anthropic_claude-3.7-sonnet_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-loaner-laptop",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.order-apple-watch",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Successful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.navigate-and-sort-service-catalog-item-list-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "B",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-incident-and-max-filter-incident-list-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  },
+  {
+    "task": "workarena.servicenow.dashboard-retrieve-catalog-and-max-order-loaner-laptop-l2",
+    "agent": "GenericAgent-gpt-4o-2024-11-20",
+    "experiment": "GenericAgent-gpt-4o-2024-11-20_on_workarena.servicenow",
+    "split": "test",
+    "labels": [
+      [
+        "A",
+        "Unsuccessful"
+      ]
+    ]
+  }
+]

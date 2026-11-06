@@ -1,0 +1,21 @@
+{
+  "source": "McGill-NLP/agent-reward-bench",
+  "revision": "b6d17e646009d6cb63d5dd7be78807b680693f61",
+  "github_run": "42148904535",
+  "frozen_tasks": 20,
+  "expected_trajectories": 80,
+  "valid_trajectories": 80,
+  "steps": 1874,
+  "expected_frames": 1874,
+  "valid_frames": 1874,
+  "source_json_bytes": 2209743815,
+  "source_png_bytes": 218754510,
+  "compact_trajectory_bytes": 885778,
+  "local_frame_bytes": 281267301,
+  "encrypted_artifact_bytes": 26737464,
+  "frame_conversion": "Exact RGB pixel reconstruction from tile-deduplicated lossless WebP. Original PNG byte hashes and restored PNG hashes both retained.",
+  "catalog_matches_source": true,
+  "remaining_errors": [],
+  "recovered_transport_errors": "direct_download_interruption.json and transport/receive-errors.jsonl",
+  "label_handling": "Copied mechanically from the pinned source metadata; never supplied to acquisition workflow or analyzed."
+}

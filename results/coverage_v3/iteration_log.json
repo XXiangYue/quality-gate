@@ -1,0 +1,36 @@
+[
+  {
+    "round": 1,
+    "variant": "evidence",
+    "dev_complete": 88,
+    "rescued": 4,
+    "new_false_accept": 2,
+    "finding": "More observational text and no initial-verdict anchoring recovers cases, but fails proximity/rating cases and silently normalizes specified field values."
+  },
+  {
+    "round": 2,
+    "variant": "coverage",
+    "dev_complete": 88,
+    "rescued": 1,
+    "new_false_accept": 0,
+    "finding": "Per-condition evidence prevents the observed new false releases but contract generation can itself promote draft to send, demand salutations, or impose exactness beyond an ordinary topic. Keep literal field values exact; bind each condition to original task."
+  },
+  {
+    "round": 3,
+    "variant": "scoped",
+    "status": "complete",
+    "change": "Source-bound requirements, draft/transmission scope validation and one repair; explicit contact-channel vs salutation distinction; no gold-based dictionary or per-task exceptions.",
+    "dev_complete": 88,
+    "rescued": 0,
+    "new_false_accept": 1,
+    "finding": "Scope regex rejected negative transmission language; a candidate numeric certificate marked met despite its reason stating 1 != 4; exact-quote guard also exposed an extraneous short citation."
+  },
+  {
+    "round": 4,
+    "variant": "audited",
+    "dev_complete": 88,
+    "rescued": 2,
+    "new_false_accept": 0,
+    "reason_for_extra_round": "Repair observed implementation defect and cross-check proposed acceptances for status/evidence inconsistency. Previous 3 rounds preserved; no regression or transfer outcomes viewed."
+  }
+]

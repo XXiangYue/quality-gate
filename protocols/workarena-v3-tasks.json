@@ -1,0 +1,25 @@
+{
+  "selection": "8 L1 + 12 L2 official test tasks, SHA256 quality-gate-v3:task order, no outcome or trace inspection",
+  "tasks": [
+    "workarena.servicenow.impersonation",
+    "workarena.servicenow.order-loaner-laptop",
+    "workarena.servicenow.sort-incident-list",
+    "workarena.servicenow.multi-chart-min-max-retrieval",
+    "workarena.servicenow.filter-service-catalog-item-list",
+    "workarena.servicenow.order-apple-watch",
+    "workarena.servicenow.multi-chart-value-retrieval",
+    "workarena.servicenow.filter-user-list",
+    "workarena.servicenow.priority-assignment-large-l2",
+    "workarena.servicenow.filter-three-items-uniform-expenses-and-find-total-return-medium-l2",
+    "workarena.servicenow.infeasible-navigate-and-order-apple-watch-l2",
+    "workarena.servicenow.dashboard-retrieve-incident-and-max-filter-incident-list-l2",
+    "workarena.servicenow.infeasible-navigate-and-create-user-l2",
+    "workarena.servicenow.dashboard-retrieve-catalog-and-max-order-loaner-laptop-l2",
+    "workarena.servicenow.navigate-and-sort-service-catalog-item-list-l2",
+    "workarena.servicenow.infeasible-navigate-and-order-development-laptop-p-c-l2",
+    "workarena.servicenow.two-changes-wide-schedule-tight-uniform-risk-change-request-scheduling-l2",
+    "workarena.servicenow.navigate-and-filter-change-request-list-l2",
+    "workarena.servicenow.two-changes-wide-basic-uniform-risk-change-request-scheduling-l2",
+    "workarena.servicenow.infeasible-navigate-and-sort-hardware-list-l2"
+  ]
+}

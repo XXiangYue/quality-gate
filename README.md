@@ -1,6 +1,14 @@
 # Quality Gate
 
-Quality Gate evaluates whether an agent completed its task. Its WebArena runner compares a selective second read of browser evidence against the original WebJudge evaluation and a second read of every rejection. The original artifact verifier checks local business state and regression fixtures.
+Quality Gate evaluates whether an agent completed its task. It adds outcome requirements, time-indexed evidence and a challenge of proposed acceptances to an original WebJudge baseline. The original artifact verifier remains available for local business state and regression fixtures.
+
+## Current method experiment
+
+Four development iterations are documented in [outcome evidence review](docs/COVERAGE_REVIEW.md). On 80 unseen WorkArena trajectories, the development-selected reviewer changes correct success recognition from 10/31 to 12/31, with no false acceptance among 49 failures; logical tokens increase 44.4%. Both recoveries are actors on one task. On 310 previously inspected WebArena regression traces, it recovers one success without adding false acceptances. The simpler same-evidence reread performs better on transfer, so superiority of the more complex method is not established. Full component ablations, source manifests, certificates and failed iterations are retained.
+
+```bash
+uv run python scripts/check_coverage_results.py
+```
 
 ## Public browser trajectories
 

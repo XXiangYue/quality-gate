@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "purpose": "Iterate completion review using outcome requirements and time-indexed observational evidence.",
+  "development": "All 88 WebArena development traces; inspect failures and retain every iteration, including regressions.",
+  "regression": "310 WebArena former test traces already inspected. These are NOT a new held-out evaluation.",
+  "transfer": "20 previously uninspected WorkArena official test tasks: first 8 L1 and first 12 L2 sorted by SHA256('quality-gate-v3:' + task_id); include all available annotated actors. Freeze final implementation before evaluating. Report environmental shift and small sample limitations.",
+  "invariant": "Initial WebJudge acceptances remain unchanged. Review rejections only. Human labels never enter inference. No task IDs, site-specific answer dictionaries or gold strings in the method.",
+  "iterations": ["Unanchored evidence-rich second read", "Outcome-only task contract plus per-condition evidence coverage and exact quote validation", "Development-error-driven refinement and optional independent contradiction check"],
+  "comparison": "Historical WebJudge and reread controls, plus same-evidence unanchored reread. Keep model alias, temperature, input evidence limits and output cap fixed within each paired run. Disclose cached baseline date and service alias rather than claim immutable weights.",
+  "primary": "Additional human successes recovered AND additional human failures accepted, with raw counts, recall, FPR, paired task bootstrap and token costs including contract extraction and unsuccessful attempts.",
+  "selection": "Select on development only: zero new false acceptances, then greatest rescued successes, then lower logical token cost. A failed guard must be stated; do not silently relabel or omit trajectories.",
+  "budget": "Existing budgeted model client; separate 30 USD conservative ceiling for this workstream. Fixed 1300 output token cap, temperature 0, DeepSeek Flash alias.",
+  "stop": "Two or three concrete development iterations, then freeze and report regression/transfer without tuning to either. No guaranteed gain. Preserve all previous evidence."
+}
